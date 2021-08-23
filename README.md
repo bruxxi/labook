@@ -12,7 +12,7 @@
    DB_SCHEMA = 
 
    JWT_KEY = 
-
+   JWT_EXPIRES_IN =
    BCRYPT_COST = 
    ```
 * Executar `npm run migrations` para adicionar as tabelas ao banco de dados (em caso de sucesso, o servidor já estará pronto para receber requisições )
