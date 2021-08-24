@@ -15,7 +15,7 @@ export class PostBusiness {
   
         const id: string = generateId()
 
-     const newPost: postDTO = { id, photo, description, type, author_Id: tokenData.id }
+        const newPost: postDTO = { id, photo, description, type, author_Id: tokenData.id }
 
         await postDatabase.create(newPost)
       }

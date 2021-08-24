@@ -31,7 +31,7 @@ export class PostController {
            const { id } = req.params
            const token = req.headers.authorization
      
-         const post = await postBusiness.getPostByIdBusiness({id, token})
+            const post = await postBusiness.getPostByIdBusiness({id, token})
      
            res.status(200).send({ message, post })
      
